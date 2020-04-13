@@ -22,19 +22,19 @@
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-toolchains-plugin</artifactId>
-                <version>3.0.0</version>
-                <configuration>
-                    <toolchains>
-                        <jdk>
-                            <version>${java.version}</version>
-                            <vendor>${java.vendor}</vendor>
-                        </jdk>
-                    </toolchains>
-                </configuration>
-            </plugin>
+            <!-- <plugin> -->
+                <!-- <groupId>org.apache.maven.plugins</groupId> -->
+                <!-- <artifactId>maven-toolchains-plugin</artifactId> -->
+                <!-- <version>3.0.0</version> -->
+                <!-- <configuration> -->
+                    <!-- <toolchains> -->
+                        <!-- <jdk> -->
+                            <!-- <version>${java.version}</version> -->
+                            <!-- <vendor>${java.vendor}</vendor> -->
+                        <!-- </jdk> -->
+                    <!-- </toolchains> -->
+                <!-- </configuration> -->
+            <!-- </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
